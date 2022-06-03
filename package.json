@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "devDependencies": {
+        "jest-cli": "28.1.0"
+    },
+    "scripts": {
+        "repro": "cd bazel-out/arch/bin; jest --no-cache --no-watchman --ci --haste {\\\"enableSymlinks\\\":true} --config jest.config.js"
+    }
+}
